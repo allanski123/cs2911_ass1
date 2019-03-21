@@ -1,0 +1,25 @@
+#Test 3: test whether vehicles would be allocated if all vehicles are already assigned 
+Location CBD Wicked Automatic
+Location CBD Zeppelin Automatic
+Location CBD Floyd Automatic
+location Penrith Queen Manaual
+Location Cremorne Ramones Automatic
+Location Sutherland Purple Manaual
+location Sutherland Hendrizx Manaual
+
+#request 4- 15 should return "Booking Rejected"
+Request 1 14 MAY 01 02 APR 23 2 Automatic 3 Manual
+Request 2 23 SEP 14 14 DEC 05 2 Automatic 1 Manual
+Request 3 01 NOV 15 23 JAN 10 1 Automatic 3 Manual
+Request 4 14 MAY 01 02 APR 23 2 Automatic 3 Manual
+Request 5 23 SEP 14 14 DEC 05 2 Automatic 1 Manual
+Request 6 01 NOV 15 23 JAN 10 1 Automatic 3 Manual
+Request 7 14 MAY 01 02 APR 23 2 Automatic 3 Manual
+Request 8 23 SEP 14 14 DEC 05 2 Automatic 1 Manual
+Request 9 01 NOV 15 23 JAN 10 1 Automatic 3 Manual
+Request 10 14 MAY 01 02 APR 23 2 Automatic 3 Manual
+Request 11 23 SEP 14 14 DEC 05 2 Automatic 1 Manual
+Request 12 01 NOV 15 23 JAN 10 1 Automatic 3 Manual
+Request 13 14 MAY 01 02 APR 23 2 Automatic 3 Manual
+Request 14 23 SEP 14 14 DEC 05 2 Automatic 1 Manual
+Request 15 01 NOV 15 23 JAN 10 1 Automatic 3 Manual

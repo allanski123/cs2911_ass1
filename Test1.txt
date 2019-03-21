@@ -1,0 +1,18 @@
+#Test 1: test whether a booking can be make in the same time as other bookings
+Location CBD Wicked Automatic
+Location CBD Zeppelin Automatic
+Location CBD Floyd Automatic
+location Penrith Queen Manaual
+Location Cremorne Ramones Automatic
+Location Sutherland Purple Manaual
+location Sutherland Hendrizx Manaual
+
+Request 1 14 MAY 01 02 APR 23 2 Automatic 3 Manual
+Request 2 23 SEP 14 14 DEC 05 2 Automatic 1 Manual
+Request 3 01 NOV 15 23 JAN 10 1 Automatic 3 Manual
+	#Request 3 should fail: 1 Automatic can be successfully allocated, however there are
+	insufficient amount of manual campervans available during the requested period as it conincides 
+	with a prior booking i.e 2. Hence booking should be rejected.
+Request 4 13 DEC 10 08 FEB 19 2 Automatic 2 Manual
+	#This is a similar test to the one above however the startdate for this booking requested
+	is 1 hour before the enddate for request 2. Booking should also be rejected.
